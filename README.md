@@ -93,7 +93,7 @@ This behavior is can be simulated by using numpy's `polyfit()` function (similar
 ```python
 from numpy.polynomial.polynomial import polyfit
 
-# Fit with polyfit function to get m(intercept) and b(slope) . the degree parameter = 1 to show astraight line
+# Fit with polyfit function to get b(intercept) and m(slope) . the degree parameter = 1 to show astraight line
 b, m = polyfit(x, y, 1)
 
 # Plot the data points and line calculated from ployfit
